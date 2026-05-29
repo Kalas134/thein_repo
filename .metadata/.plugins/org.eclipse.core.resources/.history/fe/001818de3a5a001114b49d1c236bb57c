@@ -1,0 +1,21 @@
+package com.kdj;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		
+//		금융계산기
+//		변수 정의
+		int money;
+		double interestRate;
+		
+//		값 정의
+		money = 100000;
+		interestRate = 0.05;
+		
+//		출력
+		double result = money * (1 + interestRate);
+		System.out.println(result);
+	}
+
+}

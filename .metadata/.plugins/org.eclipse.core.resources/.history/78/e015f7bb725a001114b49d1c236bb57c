@@ -1,0 +1,29 @@
+package com.kdj;
+
+public class Student {
+	
+	private String name = "캐시";
+	private int age = 23;
+	private String stu = "물리학과";
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String string) {
+	}
+
+	public Student(String string, int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String string, int i, String string2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void displayInfo() {
+		System.out.println("이름: " + name + " / 나이: " + age + " / 학과: " + stu);
+		
+	}
+
+}

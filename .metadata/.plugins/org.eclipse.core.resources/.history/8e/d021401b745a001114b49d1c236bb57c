@@ -1,0 +1,34 @@
+package com.kdj;
+
+public class Student {
+	
+	private String name;
+	private int age;
+	private String major;
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String strName) {
+		this.name = strName;
+	}
+
+	public Student(String strName, int intAge) {
+		this.name = strName;
+		this.age = intAge;
+	}
+
+	public Student(String strName, int intAge, String major) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void displayInfo() {
+		System.out.println(
+				"이름: " + name +
+				" -- 나이: " + age +
+				" -- 학과: " + major);
+		
+	}
+
+}

@@ -1,0 +1,60 @@
+package com.kdj;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		
+		boolean isRaining = true;
+		if (isRaining) {
+			System.out.println("출력됨");
+		} else {
+			System.out.println("출력되지 않음");
+		}
+		System.out.println("--------------");
+		
+
+	    int weather = 2; // 1 = raining, 2 = sunny, 3 = cloudy
+
+	    if (weather == 1) {
+	    System.out.println("Bring an umbrella.");
+	    } else if (weather == 2) {
+	    System.out.println("Wear sunglasses.");
+	    } else if (weather == 3) {
+	    System.out.println("Just go outside normally.");
+	    }
+		System.out.println("--------------");
+	    
+//	    3항 연산자
+		String result2;
+		result2 = isRaining ? "비옴" : "안옴";
+		System.out.println(result2);
+		System.out.println("--------------");
+		
+//		
+		int day = 4;
+		switch (day) {
+		case 1: System.out.println("Monday");
+		break;
+
+		case 2: System.out.println("Monday");
+		break;
+
+		case 3: System.out.println("Monday");
+		break;
+
+		case 4: System.out.println("Monday");
+		break;
+
+		case 5: System.out.println("Monday");
+		break;
+
+		case 6: System.out.println("Monday");
+		break;
+
+		case 7: System.out.println("Monday");
+		break;
+		
+		}
+	}
+
+}

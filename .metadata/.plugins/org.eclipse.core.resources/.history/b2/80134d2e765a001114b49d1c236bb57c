@@ -1,0 +1,44 @@
+package com.kdj;
+
+public class Student {
+	
+	private String name;
+	private int age;
+	private String major;
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String strName) {
+		this.name = strName;
+	}
+
+	public Student(String strName, int intAge) {
+		this.name = strName;
+		this.age = intAge;
+	}
+
+	public Student(String strName, int intAge, String major) {
+		this.name = strName;
+		this.age = intAge;
+		this.major = major;
+		
+	}
+
+	public void displayInfo() {
+		
+//		3항 연산자를 통해서 null, 0의 값에 대한 대체제를 넣어두고
+		String displayName = (name == null) ? "입력없음" : name;
+		String displayAge = (age == 0) ? "입력없음" : String.valueOf(age);
+		String displayMajor = (major == null) ? "입력없음" : major;
+		
+//		위의 3항 연산자를 통해 출력하는 방식이다.
+		System.out.printf(
+				"이름: " + displayName +
+				"\n나이: " + displayAge +
+				"\n학과: " + displayMajor + "\n ------");
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.kdj;
+
+public class Students {
+	
+	public String st01() {
+		String st_name = "Alice";
+		return st_name;
+	}
+	
+	public String st02() {
+		String st_name = "Albut";
+		return st_name;
+	}
+	
+	public String st03() {
+		String st_name = "Kal";
+		return st_name;
+	}
+}

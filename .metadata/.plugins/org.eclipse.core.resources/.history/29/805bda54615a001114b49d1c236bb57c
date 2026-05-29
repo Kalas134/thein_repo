@@ -1,0 +1,12 @@
+package com.kdj;
+
+import java.awt.Point;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		var originOne = new Point();
+
+	}
+
+}

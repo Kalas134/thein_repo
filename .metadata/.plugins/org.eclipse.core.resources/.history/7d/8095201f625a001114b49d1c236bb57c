@@ -1,0 +1,8 @@
+package com.kdj;
+
+public class myPoint {
+	int x = 0;
+	public void toString() {
+		System.out.println("myPoint 입니다.");
+	}
+}
