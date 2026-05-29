@@ -10,6 +10,8 @@ public class Ex_DataType {
 		String myText = "Hello";
 		
 		System.out.println("자동 타입 캐스팅\n ------------ \n byte-> short-> char-> int -> long-> float-> double");
+		
+		System.out.println("수동 타입 캐스팅\n ------------ \n double-> float-> long-> int-> char-> short-> byte ");
 
 	}
 
