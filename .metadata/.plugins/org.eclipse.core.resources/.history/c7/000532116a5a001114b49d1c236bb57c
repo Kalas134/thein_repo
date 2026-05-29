@@ -1,6 +1,0 @@
-package com.kdj;
-
-public class Students {
-	
-	String st_name = "hong";
-}
