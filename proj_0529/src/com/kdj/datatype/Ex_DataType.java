@@ -10,9 +10,9 @@ public class Ex_DataType {
 		double myDouble = 20.000;
 		String myText = "Hello";
 		
-		System.out.println("자동 타입 캐스팅\n ------------ \n byte-> short-> char-> int -> long-> float-> double");
+		System.out.println("자동 타입 캐스팅\n ------------ \nbyte-> short-> char-> int -> long-> float-> double");
 		
-		System.out.println("수동 타입 캐스팅\n ------------ \n double-> float-> long-> int-> char-> short-> byte ");
+		System.out.println("수동 타입 캐스팅\n ------------ \ndouble-> float-> long-> int-> char-> short-> byte ");
 		
 //		int --> double
 		double resultDouble = myIntNum;
