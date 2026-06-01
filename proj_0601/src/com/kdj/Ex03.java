@@ -1,15 +1,42 @@
 package com.kdj;
 
+import java.util.Scanner;
+
 public class Ex03 {
 
 	public static void main(String[] args) {
 
-		Calcul calculator = new Calcul();
+		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("2 add 4: " + calculator.add(2, 4));
-		System.out.println("5 subtract 1: " + calculator.subtract(5, 1));
-		System.out.println("4 multiplication 5: " + calculator.multiplication(4, 5));
-		System.out.println("6 division 2: " + calculator.division(6, 2));
+		Calcul calculator = new Calcul();
+		int num1;
+		int num2;
+		String operator;
+		
+		System.out.print("1st num? ");
+		num1 = sc.nextInt();
+
+		System.out.print("연산자(+, -, *, /)? ");
+		operator = sc.next();
+		
+
+		System.out.print("2st num? ");
+		num2 = sc.nextInt();
+		
+		switch (operator) {
+		case "+":
+			calculator.add(num1, num2);
+			break;
+		case "-":
+			calculator.subtract(num1, num2);
+			break;
+		case "*":
+			calculator.multiplication(num1, num2);
+			break;
+		case "/":
+			calculator.division(num1, num2);
+			break;
+		}
 	}
 
 }

@@ -2,20 +2,20 @@ package com.kdj;
 
 public class Calcul {
 
-	public int add(int i, int j) {
-		return i + j;
+	public void add(int i, int j) {
+		System.out.println("1st num + 2st num: " + (i + j));
 	}
 	
-	public int subtract(int i, int j) {
-		return i - j;
+	public void subtract(int i, int j) {
+		System.out.println("1st num - 2st num: " + (i - j));
 	}
 	
-	public int multiplication(int i, int j) {
-		return i * j;
+	public void multiplication(int i, int j) {
+		System.out.println("1st num * 2st num: " + (i * j));
 	}
 	
-	public int division(int i, int j) {
-		return i / j;
+	public void division(int i, int j) {
+		System.out.println("1st num / 2st num: " + (i / j));
 	}
 
 }
