@@ -16,7 +16,7 @@ public class Ex03 {
 		System.out.print("1st num? ");
 		num1 = sc.nextInt();
 
-		System.out.print("연산자(+, -, *, /)? ");
+		System.out.print("연산자(+, -, *, /, %)? ");
 		operator = sc.next();
 		
 
@@ -36,6 +36,8 @@ public class Ex03 {
 		case "/":
 			calculator.division(num1, num2);
 			break;
+		case "%":
+			calculator.remainder(num1, num2);
 		}
 	}
 
