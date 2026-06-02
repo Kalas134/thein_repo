@@ -109,3 +109,8 @@ node_modules/
 # =========================
 *.tmp
 *.temp
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
