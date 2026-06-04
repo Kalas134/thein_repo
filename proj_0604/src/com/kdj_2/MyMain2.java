@@ -12,8 +12,8 @@ public class MyMain2 {
 		pig1.aniSound = "꿀꿀";
 		System.out.println(pig1.aniName);
 		System.out.println(pig1.aniSound);
-		pig1.aniEat();
-		pig1.aniSleep();
+		pig1.aniEat("헛간");
+		pig1.aniSleep("헛간");
 		
 		Cat cat1 = new Cat();
 //		System.out.println(cat1.catName);
@@ -21,8 +21,8 @@ public class MyMain2 {
 		cat1.aniSound = "냐옹";
 		System.out.println(cat1.aniName);
 		System.out.println(cat1.aniSound);
-		cat1.aniEat();
-		cat1.aniSleep();
+		cat1.aniEat("부뚜막");
+		cat1.aniSleep("부뚜막");
 		
 		Dog dog1 = new Dog();
 //		System.out.println(dog1.dogName);
@@ -30,8 +30,8 @@ public class MyMain2 {
 		dog1.aniSound = "멍멍";
 		System.out.println(dog1.aniName);
 		System.out.println(dog1.aniSound);
-		dog1.aniEat();
-		dog1.aniSleep();
+		dog1.aniEat("아랫목");
+		dog1.aniSleep("아랫목");
 		
 		Bird bird1 = new Bird();
 //		System.out.println(bird1.birdName);
@@ -39,8 +39,8 @@ public class MyMain2 {
 		bird1.aniSound = "짹짹";
 		System.out.println(bird1.aniName);
 		System.out.println(bird1.aniSound);
-		bird1.aniEat();
-		bird1.aniSleep();
+		bird1.aniEat("나뭇가지 위");
+		bird1.aniSleep("나뭇가지 위");
 //		공통적으로 Animal을 상속받는다.
 	}
 }

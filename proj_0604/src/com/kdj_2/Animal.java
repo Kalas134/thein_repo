@@ -5,11 +5,11 @@ class Animal {
 	
 	String aniName = "동물이름";
 	String aniSound = "동물소리";
-	void aniEat() {
-		System.out.println(aniName + ": 식사시간");
+	void aniEat(String aniMotion) {
+		System.out.println(aniName + ": 식사시간, 위치:" + aniMotion);
 	}
-	void aniSleep() {
-		System.out.println(aniName + ": 수면시간");
+	void aniSleep(String aniMotion2) {
+		System.out.println(aniName + ": 수면시간, 위치:" + aniMotion2);
 	}
 
 }
