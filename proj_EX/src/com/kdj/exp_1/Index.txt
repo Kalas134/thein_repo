@@ -1,5 +1,5 @@
 
-[Java important EX.]
+[Java important EX1.]
 
 (연산자 기본 편)
 Ex01_001
