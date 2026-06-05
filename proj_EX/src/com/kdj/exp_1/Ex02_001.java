@@ -1,4 +1,4 @@
-package com.kdj.exp;
+package com.kdj.exp_1;
 
 public class Ex02_001 {
 
