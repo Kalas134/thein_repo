@@ -1,4 +1,4 @@
-package com.kdj_6;
+package com.arrays;
 
 import java.util.ArrayList;
 

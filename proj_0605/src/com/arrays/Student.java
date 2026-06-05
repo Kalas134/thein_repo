@@ -1,4 +1,4 @@
-package com.kdj_6;
+package com.arrays;
 
 class Student {
 //	이름, 점수
